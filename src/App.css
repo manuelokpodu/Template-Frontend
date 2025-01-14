@@ -1,37 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .card {
   padding: 2em;
@@ -39,4 +6,143 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* skills */
+.skills {
+  background-color: #ffffff;
+  padding: 149.33px 85.33px;
+  display: flex;
+  flex-direction: column;
+  gap: 107.34px;
+  height: 906.33px;
+}
+
+.skills-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 21.33px;
+  text-align: left;
+}
+
+.skills-txt h4 {
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #282938;
+}
+
+.skills-txt h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  color: #282938;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 42px;
+  height: 10%;
+  width: 100%;
+}
+
+.skill img {
+  width: 53.33px;
+  height: 53.33px;
+}
+
+.img-1 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15.49px 0px #0000001a;
+  border-radius: 10.33px;
+  width: 79.33px;
+  height: 79.33px;
+  /* padding: 12.91px; */
+  padding: 12px;
+}
+
+.first_skill {
+  background-color: #f5fcff;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 32px;
+  text-align: left;
+  border-radius: 10.67px;
+  cursor: pointer;
+  /* line-height: 0px; */
+}
+
+.first_skill:hover {
+  border-bottom: 4px solid #5e3bee;
+}
+
+.first_skill_txt {
+  /* padding: 12px; */
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.first_skill_txt h5 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  color: #282938;
+}
+
+.first_skill_txt p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #282938;
+}
+
+/* about */
+#about {
+  padding: 133.33px 85.33px;
+  gap: 114.67px;
+  background-color: white;
+}
+
+.aboutme img {
+  width: 81%;
+  height: 99%;
+}
+
+.about-txt {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 700px;
+}
+
+.first-abouttxt {
+  display: flex;
+  flex-direction: column;
+  gap: 10.67px;
+}
+
+.first-abouttxt p {
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #282938;
+}
+
+.first-abouttxt h4 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 76.8px;
+  color: #282938;
+}
+
+.about-par {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #1c1e53;
+  width: 600px;
 }

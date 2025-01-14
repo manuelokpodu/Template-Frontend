@@ -1,0 +1,49 @@
+.aboutman-body {
+  height: 1262.67px;
+  padding: 133.33px 85.33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 114.67px;
+  background-color: #ffffff;
+}
+
+.aboutmaan {
+  width: 813.33px;
+  height: 996px;
+}
+
+.aboutme-details {
+  height: 403.67px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.aboutme-details div {
+  height: 119.67px;
+  display: flex;
+  flex-direction: column;
+  gap: 10.67px;
+}
+
+.aboutman-body h3 {
+  font-weight: 600;
+  font-size: 21.33px;
+  color: #282938;
+  margin-bottom: 20px;
+}
+
+.aboutman-body h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #282938;
+  margin-bottom: 20px;
+}
+
+.aboutman-body p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #1c1e53;
+  margin-bottom: 20px;
+}

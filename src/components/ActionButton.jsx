@@ -1,4 +1,5 @@
 import { Button, Spinner } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export default function ActionButton({
   text,
@@ -27,3 +28,13 @@ export default function ActionButton({
     </Button>
   );
 }
+
+ActionButton.propTypes = {
+    text: PropTypes.string.isRequired,
+    className: PropTypes.string,
+    type: PropTypes.string,
+    pending: PropTypes.bool,
+    size: PropTypes.string,
+    variant: PropTypes.string,
+  };
+  

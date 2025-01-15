@@ -9,12 +9,15 @@ const Section1 = () => {
           <div className="row align-items-center">
             <div className="col-12 col-lg-6">
               <div className="px-3">
-                <p className="font-weight-semibold">Hey, I am Ayo</p>
+                <p style={{
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: 600, 
+  }}>Hey, I am Ayo</p>
                 <h1
   className="display-4"
   style={{
     fontFamily: 'Roboto, sans-serif',
-    fontWeight: 900, // This makes the text very bold (900 is typically the heaviest weight)
+    fontWeight: 900, 
   }}
 >
   I develop dynamic and User-Centered Web Applications
@@ -25,17 +28,18 @@ const Section1 = () => {
                   My expertise spans both front-end and back-end development, enabling me to build comprehensive solutions that meet diverse client needs.
                 </p>
 
-                {/* Regular Bootstrap Button */}
                 <button
   className="btn btn-lg btn-sm px-4 py-3"
   style={{
     backgroundColor: '#5E3BEE',
     borderColor: '#5E3BEE',
     color: 'white',
+    fontSize: '16px', 
   }}
 >
   Get In Touch
 </button>
+
 
               </div>
             </div>

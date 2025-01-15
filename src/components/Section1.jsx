@@ -24,12 +24,12 @@ const Section1 = () => {
 </h1>
 
 
-                <p className="w-lg-75">
+                <p className="w-lg-75 mt-4">
                   My expertise spans both front-end and back-end development, enabling me to build comprehensive solutions that meet diverse client needs.
                 </p>
 
                 <button
-  className="btn btn-lg btn-sm px-4 py-3"
+  className="btn btn-lg btn-sm mt-4 px-4 py-3 custom-button"
   style={{
     backgroundColor: '#5E3BEE',
     borderColor: '#5E3BEE',

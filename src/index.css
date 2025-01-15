@@ -68,3 +68,18 @@ header {
 .herobtn{
   background: #5E3BEE;
 }
+
+.custom-button {
+  background-color: #5E3BEE;
+  border-color: #5E3BEE;
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.custom-button:hover {
+  background-color: #4a2ab8;  /* Slightly darker shade of purple */
+  border-color: #4a2ab8;
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+

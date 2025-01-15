@@ -80,6 +80,6 @@ header {
 .custom-button:hover {
   background-color: #4a2ab8;  /* Slightly darker shade of purple */
   border-color: #4a2ab8;
-  transform: scale(1.1); /* Slightly enlarge the button on hover */
+  transform: scale(1.04); /* Slightly enlarge the button on hover */
 }
 
